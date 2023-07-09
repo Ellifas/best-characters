@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto BestCharacters</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;700&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href=.src/css/responsive.css">
+    
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./src/img/enigma do milenio.png" alt="logo yugioh" width="150px">
+    </header>
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem!</h1>
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="aoba" data-name = 'Aoba' data-description="          Aoba Watase (渡瀬 青葉, Watase Aoba ) é o principal protagonista da série de anime Buddy Complex. Inicialmente um aluno da Seio High School, ele foi enviado para o futuro por sua colega Hina Yumihara. Ao chegar, ele foi colocado no cockpit do XV-7001 Luxon Coupling Valiancer e mais tarde se tornou um membro vital da Free Pact Alliance ao lado de Dio Junyou Weinberg. Sob a vigilância do capitão Gengo Kuramitsu, Aoba se alistou como piloto de patente e membro da Unidade Valiancer de Cygnus.">
+            <img src="./src/img/Watase Aoba.jpeg" alt="Watase Aoba" width="130px" />
+          </li>
+          <li class="personagem" id="Bojji" data-name = "Bojji" data-description = '
+          Bojji (ボッジ, Bojji) é o principal protagonista do Ranking Ousama.
+          Ele é o príncipe herdeiro do reino de Bosse, filho do rei Bosse e da rainha Sheena, enteado da rainha Hilling e meio-irmão mais velho do príncipe Daida.'>
+            <img src="./src/img/Bojji.jpeg" alt="King bojji" width="130px" />
+          </li>
+          <li class="personagem" id="brock" data-name="Brock" data-description="Brock (タケシ Takeshi) é o Gym Leader do Pewter City's Gym, conhecido oficialmente como Pewter Gym. Ele dá o Boulder Badge aos treinadores que o derrotam na batalha. Ele é especialista em Pokémon do tipo pedra.">
+            <img src="./src/img/Brock (1).jpeg" alt="brock" width="130px" />
+          </li>
+          <li class="personagem" id="kirito" data-name="Kirito" data-description="Kirito (キ リ ト, Kirito) é o principal protagonista da light novel, anime, manga e jogo da série Sword Art Online. Seu nome, Kirito, foi tirado de seu nome verdadeiro Kirigaya Kazuto (桐 ヶ 谷 和 人, Kirigaya Kazuto), "Kiri--" de Kirigaya e "----to" de Kazuto. Ele foi escolhido como um dos 1.000 testadores do beta para o beta fechado de «Sword Art Online», o primeiro VRMMORPG (Jogo Reprodutor de Realidade Virtual para Multi-Jogadores) para o NerveGear.">
+            <img src="./src/img/Kirito.jpeg" alt="Kirito" width="130px"/>
+          </li>
+          <li class="personagem" id="kuroko" data-name="Kuroko" data-description="
+          Tetsuya Kuroko (黒子テツヤ Kuroko Tetsuya) é o principal protagonista do mangá, Kuroko no Basuke. Ele foi o Sexto Jogador Fantasma da Geração de Milagres no Teikō Junior High, especializado em desorientação e passes. Ele agora joga regularmente com Seirin com o objetivo de levar o time e Taiga Kagami ao topo do Japão.">
+            <img src="./src/img/Kuroko.jpeg" alt="kuroko"width="130px" />
+          </li>
+          <li class="personagem" id="minato" data-name="Minato" data-description="Minato Namikaze (波 風 ミ ナ ト) foi o Quarto Hokage (代 目 火影, Yondaime Hokage; Literalmente significa Quarta Sombra de Fogo) de Konohagakure. Ele era famoso no mundo Ninja, por sua incrível velocidade, levando ao apelido de Relâmpago Amarelo de Konoha (Konoha no Kiiroi Senkō). Ele morreu durante o ataque da Kyuubi a Konoha, sacrificando sua vida para selar uma parte do Kyuubi em seu filho recém-nascido, Naruto Uzumaki.">
+            <img src="./src/img/Minato.jpeg" alt="minato" width="130px" />
+          </li>
+          <li class="personagem" id="tanjiro" data-name="Tanjiro" data-description="Tanjiro Kamado (竈門炭治郎) é o principal protagonista da proeminente série de anime/mangá, Demon Slayer: Kimetsu no Yaiba. Ele também é o irmão mais velho de Nezuko Kamado e é o filho mais velho da família Kamado. Ele é um Caçador de oni classificado como Kanoe e um membro do Esquadrão de Caçadores de Onis.">
+            <img src="./src/img/Tanjiro.jpeg" alt="tanjiro" width="130px" />
+          </li>
+          <li class="personagem" id="yugi" data-name="Yugi" data-description=" Yugi Muto (武藤遊戯, Yugi), conhecido como Yugi Mutou no mangá, é o personagem principal e protagonista da série original de Yu-Gi-Oh!, juntamente com o espírito de Yami Yugi.">
+            <img src="./src/img/Yugi.jpeg" alt="yugi" width="130px"/>
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/img/aoba_fundo.png"
+          alt="Personagem Selecionado"
+        />
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Aoba</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/JS/index.js"></script>
+  </body>
+</html>
